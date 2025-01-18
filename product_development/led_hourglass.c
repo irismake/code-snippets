@@ -1,3 +1,5 @@
+//LED 모래시계 동작 코드
+
 #include "LedControl.h"
 
 #define  MATRIX_A  0

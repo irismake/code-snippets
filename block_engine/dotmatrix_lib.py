@@ -1,3 +1,5 @@
+# 모듈(도트매트릭스) 라이브러리
+
 import x16k33
 import font_5x5
 import time

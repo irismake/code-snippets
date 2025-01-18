@@ -1,3 +1,5 @@
+// 블럭 생성 코드
+
 import * as Blockly from 'blockly';
 
 export const blocks = Blockly.common.createBlockDefinitionsFromJsonArray([

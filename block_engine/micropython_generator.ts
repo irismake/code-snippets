@@ -1,3 +1,5 @@
+// 블럭에 대응되는 마이크로파이썬 코드
+
 import * as Blockly from 'blockly/core';
 import { DefinedOrder } from '../../constants/order';
 import { type MicroPythonGenerator } from '../microPython';
