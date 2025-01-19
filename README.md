@@ -30,7 +30,13 @@
 │   ├── block_gui.jpeg                  # 블럭 이미지
 │   ├── dotmatrix_lib.py                # 모듈(도트매트릭스) 라이브러리
 │   └── micropython_generator.ts        # 블럭에 대응되는 마이크로파이썬 코드
-└── product_development                 
-│   └── led_hourglass.c                 # LED 모래시계 동작 코드
+└── product_development 
+│   ├── reference                       # 참조 코드 폴더
+│   │   ├── Delay.cpp                   # Delay 소스 파일
+│   │   ├── Delay.h                     # Delay 헤더 파일
+│   │   ├── LedControl.cpp              # LedControl 소스 파일
+│   │   ├── LedControl.h                # LedControl 헤더 파일
+│   │   └── hourglass.ino               # 수정한 Delay & LedControl 을 사용한 동작 코드 래퍼런스   
+│   └── led_hourglass.ino               # LED 모래시계 동작 코드
 └── README.md                           # readme
 ```
