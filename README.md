@@ -7,6 +7,13 @@
 ## block_engine 폴더
 개발자가 블록 기반의 인터페이스를 구축하거나 기능을 추가할 때 사용되는 코드 조각입니다.
 
+* `block_generator.ts` : 블럭 생성 코드
+* `block_gui.jpeg` : 블럭 이미지
+* `lib.py` : 모듈 내장 라이브러리
+* `micropython_generator.ts` : 블럭에 대응되는 마이크로파이썬 코드
+* `(module).png` : 모듈 이미지
+
+
 ## product_development 폴더
 제품을 동작시키는 `C` & `C++` 기반 아두이노 코드 조각입니다.
 
@@ -25,18 +32,24 @@
 
 ```
 .
-├── block_engine                        
-│   ├── block_generator.ts              # 블럭 생성 코드
-│   ├── block_gui.jpeg                  # 블럭 이미지
-│   ├── dotmatrix_lib.py                # 모듈(도트매트릭스) 라이브러리
-│   └── micropython_generator.ts        # 블럭에 대응되는 마이크로파이썬 코드
+├── block_engine              
+│   ├── accelerometer                                     # 가속도 센서 블록 엔진 코드 스니펫
+│   │   ├── accelerometer_block_generator.ts              
+│   │   ├── accelerometer_block_gui.jpeg                  
+│   │   ├── accelerometer_lib.py                 
+│   │   └── accelerometer_micropython_generator.ts         
+│   └── dotmatrix                                         # 도트매트릭스 블록 엔진 코드 스니펫
+│       ├── dotmatrix_block_generator.ts                   
+│       ├── dotmatrix_block_gui.jpeg                     
+│       ├── dotmatrix_lib.py                   
+│       └── dotmatrix_micropython_generator.ts            
 └── product_development 
-│   ├── reference                       # 참조 코드 폴더
-│   │   ├── Delay.cpp                   # Delay 소스 파일
-│   │   ├── Delay.h                     # Delay 헤더 파일
-│   │   ├── LedControl.cpp              # LedControl 소스 파일
-│   │   ├── LedControl.h                # LedControl 헤더 파일
-│   │   └── hourglass.ino               # 수정한 Delay & LedControl 을 사용한 동작 코드 래퍼런스   
-│   └── led_hourglass.ino               # LED 모래시계 동작 코드
-└── README.md                           # readme
+│   ├── reference                                         # 참조 코드 폴더
+│   │   ├── Delay.cpp                                     # Delay 소스 파일
+│   │   ├── Delay.h                                       # Delay 헤더 파일
+│   │   ├── LedControl.cpp                                # LedControl 소스 파일
+│   │   ├── LedControl.h                                  # LedControl 헤더 파일
+│   │   └── hourglass.ino                                 # 수정한 Delay & LedControl 을 사용한 동작 코드 래퍼런스   
+│   └── led_hourglass.ino                                 # LED 모래시계 동작 코드
+└── README.md                                             # readme
 ```
