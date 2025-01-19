@@ -18,6 +18,11 @@
 ## product_development 폴더
 제품을 동작시키는 `C` & `C++` 기반 아두이노 코드 조각입니다.
 
+* `reference` 폴더 : 콘텐츠 참고 코드
+* `.ino` : 동작 코드
+* `.cpp` : 소스 파일
+* `.h` : 헤더 파일
+
 &nbsp;
 
 
@@ -49,11 +54,11 @@
 │       
 └── product_development 
 │   ├── reference                                         # 참조 코드 폴더
-│   │   ├── Delay.cpp                                     # Delay 소스 파일
-│   │   ├── Delay.h                                       # Delay 헤더 파일
-│   │   ├── LedControl.cpp                                # LedControl 소스 파일
-│   │   ├── LedControl.h                                  # LedControl 헤더 파일
-│   │   └── hourglass.ino                                 # 수정한 Delay & LedControl 을 사용한 동작 코드 래퍼런스   
+│   │   ├── Delay.cpp                                    
+│   │   ├── Delay.h                                       
+│   │   ├── LedControl.cpp                                
+│   │   ├── LedControl.h                                  
+│   │   └── hourglass.ino                                   
 │   └── led_hourglass.ino                                 # LED 모래시계 동작 코드
 └── README.md                                             # readme
 ```
